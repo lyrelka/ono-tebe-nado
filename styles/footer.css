@@ -1,8 +1,8 @@
 .footer {
-  font-size: 18px;
-  padding: 0 50px 88px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  padding: 0 50px 88px;
+  font-size: 18px;
 }
 
 .footer__contacts-list {
@@ -12,15 +12,15 @@
 }
 
 .footer__menu-list {
-  white-space: nowrap;
   text-align: center;
+  white-space: nowrap;
 }
 
 .footer__social-list {
-  margin-left: auto;
-  width: 240px;
   display: flex;
   justify-content: space-between;
+  width: 240px;
+  margin-left: auto;
 }
 
 .footer__social-link {

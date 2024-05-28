@@ -4,8 +4,8 @@
 
 .lots__title {
   margin: 0 auto 27px 40px;
-  font-size: 40px;
   font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
 }
 
@@ -19,13 +19,13 @@
 }
 
 .lots__card {
-  width: 334px;
-  height: 563px;
   z-index: 1;
-  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 334px;
+  height: 563px;
+  margin-bottom: 30px;
 }
 
 .lots__card-1 {
@@ -41,17 +41,17 @@
 }
 
 .lots__card-title {
-  font-weight: 700;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: 22px;
   margin: 51px 40px 0;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .lots__card-text {
   margin: 0 40px 48px 40px;
-  line-height: 1.2;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 

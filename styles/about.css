@@ -1,36 +1,36 @@
 .about {
-  padding: 0 24px 180px;
   display: grid;
   grid-template-columns: min-content 66%;
   grid-auto-rows: auto;
   grid-template-areas: 
   "logo title"
   ". text";
+  padding: 0 24px 180px;
 }
 
 .about__logo {
   display: flex;
   grid-area: logo;
-  background: #000;
-  border-radius: 50%;
-  height: 240px;
-  width: 240px;
-  align-self: start;
   justify-self: center;
+  align-self: start;
+  width: 240px;
+  height: 240px;
   margin: 35px 72px 8px 47px;
+  border-radius: 50%;
+  background: #000;
 }
 
 .about__logo-img {
-  margin: auto;
   width: 148px;
+  margin: auto;
 }
 
 .about__title {
   grid-area: title;
   align-self: center;
-  text-transform: uppercase;
-  font-size: 40px;
   margin-top: 35px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
