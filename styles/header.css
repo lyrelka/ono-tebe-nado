@@ -1,0 +1,30 @@
+.header {
+  font-size: 18px;
+  padding: 92px 50px 93px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.header__menu {
+  margin: auto 42px auto 0;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu li:not(:first-child){
+  list-style: circle;
+}
+
+.header__logo {
+  display: block;
+  width: 136px;
+}
+
+.header__contacts-list {
+  width: 240px;
+  margin: 6px 0 auto auto;
+  line-height: 24px;
+}

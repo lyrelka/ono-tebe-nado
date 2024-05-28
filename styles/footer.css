@@ -1,0 +1,31 @@
+.footer {
+  font-size: 18px;
+  padding: 0 50px 88px;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+}
+
+.footer__contacts-list {
+  width: 240px;
+  margin-right: auto;
+  line-height: 24px;
+}
+
+.footer__menu-list {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.footer__social-list {
+  margin-left: auto;
+  width: 240px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social-link {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
