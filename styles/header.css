@@ -15,7 +15,7 @@
   justify-content: space-between;
 }
 
-.header__menu li:not(:first-child){
+.header__menu li:not(:first-child) {
   list-style: circle;
 }
 
