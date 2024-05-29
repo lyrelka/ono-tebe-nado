@@ -1,6 +1,7 @@
 .header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
+  justify-content: space-between;
   padding: 92px 50px 93px;
   font-size: 18px;
 }
@@ -23,8 +24,6 @@
   width: 136px;
 }
 
-.header__contacts-list {
-  width: 240px;
+.header__contacts .contacts {
   margin: 6px 0 auto auto;
-  line-height: 24px;
 }
